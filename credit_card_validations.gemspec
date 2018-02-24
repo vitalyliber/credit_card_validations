@@ -19,11 +19,11 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
 
-  gem.add_dependency "activemodel", ">= 3", "<= 6"
-  gem.add_dependency "activesupport", ">= 3", "<= 6"
+  gem.add_dependency "activemodel", ">= 3", "<= 5.2.0.rc1"
+  gem.add_dependency "activesupport", ">= 3", "<= 5.2.0.rc1"
 
 
   gem.add_development_dependency "mocha", '1.1.0'
-  gem.add_development_dependency 'rake', '~> 10'
+  gem.add_development_dependency 'rake', '~> 5.2.0.rc1'
 
 end
